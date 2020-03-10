@@ -1,0 +1,17 @@
+{% block body %}
+<h1 style="text-align: center">NOTE PAD</h1>
+
+<ul>
+    {%for note in notes%}
+    <li>{{ note }}</li>
+    {% endfor %}
+</ul>
+<br>
+
+<form action="{{url_for('note') }}" method="post">
+    <textarea name="note" placeholder="Please enter note here" rows="10" cols="30"></textarea>
+    <br><br>
+    <button>Add Note</button>
+
+{% endblock %}
+</form>
