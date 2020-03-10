@@ -3,8 +3,9 @@ This is the Simple Notepad in which you input something and click on "Add Notes"
 To clear notes,you have to enter "Clear" in the textarea and press enter.It will erase all previous input.
 
 FOR STARTING:
-Create virtual environment for Python Flask.
+1. Download this repositry and you are ready to go!
+2. Create virtual environment for Python Flask.
 Check this link for help :
 https://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/
 
-And you are ready to go!Contact if you need any help!
+Contact if you need any help!
